@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	botToken := "420174983:AAFTeaY7DV2w2BKRR5axFZWYvKIncWr8UA8" // YOUR_BOT_TOKEN
+	botToken := "" // YOUR_BOT_TOKEN
 
 	bot, err := tgbotapi.NewBotAPI(botToken)
 	if err != nil {
